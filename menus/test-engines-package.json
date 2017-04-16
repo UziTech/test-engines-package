@@ -1,0 +1,26 @@
+{
+  "context-menu": {
+    "atom-text-editor": [
+      {
+        "label": "Toggle test-engines-package",
+        "command": "test-engines-package:toggle"
+      }
+    ]
+  },
+  "menu": [
+    {
+      "label": "Packages",
+      "submenu": [
+        {
+          "label": "test-engines-package",
+          "submenu": [
+            {
+              "label": "Toggle",
+              "command": "test-engines-package:toggle"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
